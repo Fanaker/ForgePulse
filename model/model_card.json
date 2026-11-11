@@ -1,0 +1,55 @@
+{
+  "algorithm": "RandomForestClassifier",
+  "dataset": "Simulación sintética determinista",
+  "train_samples": 6750,
+  "test_samples": 2250,
+  "accuracy": 0.9169,
+  "precision": 0.8718,
+  "recall": 0.899,
+  "f1": 0.8852,
+  "auc": 0.9742,
+  "confusion_matrix": [
+    [
+      1342,
+      106
+    ],
+    [
+      81,
+      721
+    ]
+  ],
+  "features": [
+    {
+      "name": "vibration",
+      "label": "Vibración",
+      "importance": 0.5985
+    },
+    {
+      "name": "temperature",
+      "label": "Temperatura",
+      "importance": 0.1898
+    },
+    {
+      "name": "current",
+      "label": "Corriente",
+      "importance": 0.0698
+    },
+    {
+      "name": "pressure",
+      "label": "Presión",
+      "importance": 0.0619
+    },
+    {
+      "name": "hours",
+      "label": "Horas de uso",
+      "importance": 0.0523
+    },
+    {
+      "name": "rpm",
+      "label": "RPM",
+      "importance": 0.0278
+    }
+  ],
+  "caveat": "Entrenado y evaluado únicamente con datos sintéticos; no apto para decisiones de seguridad industrial.",
+  "version": "synthetic-rf-v1"
+}
