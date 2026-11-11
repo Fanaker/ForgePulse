@@ -6,7 +6,7 @@
 
 **ForgePulse** es un laboratorio de ingeniería de software que combina telemetría industrial simulada, análisis de condición, un modelo supervisado de *Machine Learning* y una interfaz web estilo centro de operaciones. Ayuda a explorar cómo priorizar el mantenimiento de bombas, compresores, motores y ventiladores cuando una planta produce series temporales de sensores.
 
-> **Alcance:** proyecto de portafolio ejecutable localmente. Los equipos, sensores, lecturas, incidentes, etiquetas de entrenamiento y probabilidades son **sintéticos**. No es un SCADA certificado, no controla maquinaria ni predice fallas reales de equipos industriales.
+> **Alcance:** laboratorio de simulación industrial ejecutable localmente. Los equipos, sensores, lecturas, incidentes, etiquetas de entrenamiento y probabilidades son **sintéticos**. No es un SCADA certificado, no controla maquinaria ni predice fallas reales de equipos industriales.
 
 ## Vista rápida
 
@@ -203,4 +203,6 @@ Siguientes iteraciones posibles: integrar un broker MQTT local, registrar datos 
 
 ---
 
-**Versión 1.0.0 · Proyecto de portafolio educativo · MIT**
+## Autor y licencia
+
+**Fanaker Labs** · Proyecto personal de monitoreo industrial, IoT simulado y mantenimiento predictivo con Machine Learning. Código bajo licencia [MIT](LICENSE).
